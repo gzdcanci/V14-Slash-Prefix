@@ -50,5 +50,10 @@ for (const file of eventFiles) {
 client.login(config.token).catch(e => {
 console.log(`──────────────────────────────────────────
 ✕ | Invalid Discord Bot Token!
+If you are sure Token is correct and still see this error check; 
+- PRESENCE INTENT
+- SERVER MEMBERS INTENT
+- MESSAGE CONTENT INTENT 
+settings on Discord developer portal bot settings, make sure they are on.
 ──────────────────────────────────────────`)
 })
